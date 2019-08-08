@@ -1,6 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html class="background" lang="en">
   <head>
+  <!-- HOJAS CSS PERSONALIZADAS -->
+    <style>
+      .footerStyle{ background-color: rgb(44, 42, 42); 
+                    color:floralwhite ; 
+                    text-align: center;
+                    }
+
+      .text{
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .stars{
+                    color:darkgoldenrod
+      }
+      #image{
+                    width: 350px ;
+                    height:200px ;
+      }
+
+    </style>
+   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -49,21 +70,21 @@
     <!-- Plantilla para mostar los juegos, imagen. descripcion, calificacion -->
 
                 <div class="col-sm-4">
-                 <img width="350" height="200" src="god-of-war-ps4.jpg" alt title="God of War 4">
+                 <img id="image" src="god-of-war-ps4.jpg" alt title="God of War 4">
                  <hr>
                  <h3>Description</h3>
-                 <p>The story is about Kratos, 
+                 <p class="text">The story is about Kratos, 
                      a Spartan warrior tricked into killing his wife and daughter by his former master, 
                      the Greek God of War Ares. Kratos seeks to rid himself of the nightmares by serving the other Olympian gods, 
                      but soon finds himself in confrontation with them due to their machinations.</p>
                  <form>
-                        <p class="clasificacion">
+                        <p class="text">
                              <b>Calification: </b>
-                             <label for="radio1">★</label><!--
-                          --><label for="radio2">★</label><!--
-                          --><label for="radio3">★</label><!--
-                          --><label for="radio4">★</label><!--
-                          --><label for="radio5">★</label>
+                             <label class="stars" for="radio1">★</label><!--
+                          --><label class="stars" for="radio2">★</label><!--
+                          --><label class="stars" for="radio3">★</label><!--
+                          --><label class="stars" for="radio4">★</label><!--
+                          --><label class="stars" for="radio5">★</label>
                         </p>
                 </form>
 
@@ -75,20 +96,20 @@
 
     <!-- Plantilla para mostar los juegos, imagen. descripcion, calificacion -->
                  <div class="col-sm-4">
-                        <img style="padding-left: 5;" width="350" height="200" src="ctr.jpg" alt title="Crash team racing">
+                        <img id="image" src="ctr.jpg" alt title="Crash team racing">
                         <hr>
                         <h3>Description</h3>
                         <p>Pre-order at PlayStation Store. With Crash™ Team Racing Nitro-Fueled, the stakes are high and the competition is fierce. 
                             It's the CTR you love, now kicked into the highest gear. 
                             PlayStation®Plus subscription required to access online multiplayer.</p>
                         <form>
-                               <p class="clasificacion">
+                               <p class="text">
                                     <b>Calification: </b>
-                                    <label for="radio1">★</label><!--
-                                 --><label for="radio2">★</label><!--
-                                 --><label for="radio3">★</label><!--
-                                 --><label for="radio4">★</label>
-                                    <label for="radio4">★</label>
+                                    <label class="stars" for="radio1">★</label><!--
+                                 --><label class="stars" for="radio2">★</label><!--
+                                 --><label class="stars" for="radio3">★</label><!--
+                                 --><label class="stars" for="radio4">★</label>
+                                    <label class="stars"  for="radio4">★</label>
 
                                </p>
                        </form>
@@ -100,20 +121,22 @@
 
     <!-- Plantilla para mostar los juegos, imagen. descripcion, calificacion -->
                  <div class="col-sm-4">
-                        <img style="padding-left: 5;" width="350" height="200" src="devil-may-cry-5-pc-ps4.jpg" alt title="Devil May Cry 4">
+                        <img id="image" src="devil-may-cry-5-pc-ps4.jpg" alt title="Devil May Cry 4">
                         <hr>
                         <h3>Description</h3>
-                        <p>The game takes place five years after Devil May Cry 4 and follows a trio of warriors with demonic powers: 
+                        <p class="text">The game takes place five years after Devil May Cry 4 and follows a trio of warriors with demonic powers: 
                             Dante, Nero and a new protagonist named V as they attempt to stop the Demon King Urizen, 
                             from destroying the human world. Across the game,
                              the player can use these characters in different missions.</p>
                         <form>
-                               <p class="clasificacion">
+                               <p class="text">
                                     <b>Calification: </b>
-                                    <label for="radio1">★</label><!--
-                                 --><label for="radio2">★</label><!--
-                                 --><label for="radio3">★</label><!--
-                                 --><label for="radio4">★</label>
+                                    <label class="stars" for="radio1">★</label><!--
+                                 --><label class="stars" for="radio2">★</label><!--
+                                 --><label class="stars" for="radio3">★</label><!--
+                                 --><label class="stars" for="radio4">★</label>
+                                   <label for="radio5">★</label>
+
                                </p>
                        </form>
        
@@ -125,7 +148,7 @@
 
               <div class="row">
               <div class="col-sm-12"> 
-                  <footer style="background-color: rgb(44, 42, 42); color:floralwhite ; text-align: center">  by: @Maximo Silva and @Deivid Franco</footer>
+                  <footer class="footerStyle">  by: @Maximo Silva and @Deivid Franco</footer>
               </div>
             </div>
     <!-- Fin Footer -->
